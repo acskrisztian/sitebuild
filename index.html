@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="./styles.css">
+	<title>SB feladat</title>
+</head>
+
+<body>
+	<header class="header">
+		<h1 class="sr-only">Felvételi feladat - sitebuild</h1>
+		<div class="container">
+			<svg class="logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="128.001px" height="90px"
+				viewBox="0 0 128.001 90" enable-background="new 0 0 128.001 90" xml:space="preserve">
+				<g>
+					<path d="M0,76.884c0-7.249,5.829-13.12,13.021-13.12c7.189,0,13.016,5.872,13.016,13.12
+							C26.037,84.129,20.21,90,13.021,90C5.829,90,0,84.129,0,76.884z" />
+					<path
+						d="M102.193,76.884c0,7.245-5.827,13.116-13.018,13.116l-44.537-0.004c-7.187,0-13.018-5.871-13.018-13.116
+							l0,0c0-7.245,5.831-13.116,13.018-13.116l44.537,0.003C96.366,63.767,102.193,69.64,102.193,76.884L102.193,76.884z" />
+					<path d="M114.815,45.021c0,7.248-5.828,13.119-13.019,13.119h-75.76c-7.188,0-13.016-5.871-13.016-13.119l0,0
+							c0-7.243,5.828-13.12,13.016-13.12h75.76C108.987,31.902,114.815,37.779,114.815,45.021L114.815,45.021z" />
+					<path d="M128.001,13.118c0,7.246-5.834,13.122-13.024,13.122H39.061c-7.191,0-13.023-5.875-13.023-13.118l0,0
+							C26.037,5.873,31.87,0,39.061,0h75.916C122.167,0,128.001,5.873,128.001,13.118L128.001,13.118z" />
+				</g>
+			</svg>
+			<nav class="menu" id="menu">
+				<ul class="menu__item-list">
+					<li class="menu__item"><a href="#">ABOUT</a></li>
+					<li class="menu__item" id="submenu">
+						<span>SERVICES</span>
+						<ul class="menu__item-list">
+							<li class="menu__item"><a href="#">CMS</a></li>
+							<li class="menu__item"><a href="#">PORTAL</a></li>
+						</ul>
+					</li>
+					<li class="menu__item"><a href="#">WORKS</a></li>
+					<li class="menu__item"><a href="#">JOBS</a></li>
+				</ul>
+			</nav>
+			<button class="hamburger-button" id="hamburgerButton" onclick="toggleMenu()">
+				<div class="hamburger-button__icon"></div>
+			</button>
+		</div>
+	</header>
+	<main>
+		<div class="carousel">
+			<div class="container">
+				<div class="row">
+					<div class="col-10 col-lg-6">
+						<div class="carousel-content">
+							<div class="carousel-slide active">
+								<h2 class="carousel-title text-uppercase">Smart city</h2>
+								<p class="carousel-text">Lorem ipsum dolor sit amet, elit adipisicing elit, sed do
+									eiusmod incididuntut labore. <a href="#">Read more</a></p>
+							</div>
+							<div class="carousel-slide">
+								<h2 class="carousel-title text-uppercase">Lorem ipsum</h2>
+								<p class="carousel-text">Duis tempor bibendum leo, convallis maximus lectus dictum
+									sempe. <a href="#">Read more</a></p>
+							</div>
+							<div class="carousel-slide">
+								<h2 class="carousel-title text-uppercase">Morbi dictum</h2>
+								<p class="carousel-text">Maecenas sodales enim rhoncus, faucibus enim in, congue purus.
+									<a href="#">Read more</a></p>
+							</div>
+						</div>
+						<div class="carousel-indicator-wrapper">
+							<div class="carousel-indicator active" id="carousel-1"></div>
+							<div class="carousel-indicator" id="carousel-1"></div>
+							<div class="carousel-indicator" id="carousel-1"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<section class="text-module row">
+				<div class="col-lg-6">
+					<div class="text-module__content-wrapper">
+						<h2 class="text-module__title text-uppercase">Introduction</h2>
+						<img class="text-module__img" alt="földgömb" src="./assets/image.png">
+						<p class="text-module__text">WCAG 2.0 success criteria are written as testable statements that
+							are not technology-specific.<br>Guidance about satisfying the success criteria in specific
+							technologies, as well as general information about interpreting the success criteria, is
+							provided in separate documents. See Web Content Accessibility Guidelines (WCAG) Overview for
+							an introduction and links to WCAG technical and educational material. WCAG 2.0 succeeds Web
+							Content Accessibility Guidelines 1.0 [WCAG10], which was published as a W3C Recommendation
+							May 1999. Although it is possible to conform either to WCAG 1.0 or to WCAG 2.0 (or both)</p>
+					</div>
+					<a class="text-module__link" href="#">Tovább</a>
+				</div>
+				<div class="col-lg-6">
+					<div class="text-module__content-wrapper">
+						<h2 class="text-module__title text-uppercase">WCAG 2.0 Layers of Guidance</h2>
+						<p class="text-module__text">WCAG 2.0 success criteria are written as testable statements that
+							are not technology-specific. Guidance about satisfying the success criteria in specific
+							technologies, as well as general information about interpreting the success criteria, is
+							provided in separate documents. See Web Content Accessibility Guidelines (WCAG)</p>
+						<ul class="text-module__list">
+							<li class="text-module__list-item"><strong>Principles</strong> - At the top are four
+								principles that provide the foundation for Web accessibility</li>
+							<li class="text-module__list-item"><strong>Guidelines</strong> - Under the principles are
+								guidelines.</li>
+							<li class="text-module__list-item"><strong>Sufficient and Advisory Techniques</strong> - For
+								each of the guidelines and success criteria in the WCAG 2.0 document itself</li>
+						</ul>
+						<p class="text-module__text">WCAG 2.0 succeeds Web Content Accessibility Guidelines 1.0
+							[WCAG10], which was published as a W3C Recommendation May 1999. Guidance about satisfying
+							the success criteria in specific technologies.</p>
+					</div>
+					<a class="text-module__link" href="#">Tovább</a>
+				</div>
+			</section>
+			<section class="partners">
+				<h2 class="text-module__title text-uppercase">Our partners</h2>
+				<div class="row">
+					<div class="col-lg-4 partners__container">
+						<a href="https://google.com/" target="blank"><img src="./assets/css.png" alt="css logo"></a>
+					</div>
+					<div class="col-lg-4 partners__container">
+						<a href="https://google.com/" target="blank"><img src="./assets/html.png" alt="html logo"></a>
+					</div>
+					<div class="col-lg-4 partners__container">
+						<a href="https://google.com/" target="blank"><img src="./assets/java.png" alt="java logo"></a>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="row footer__content">
+				<div class="col-lg-6">
+					<h2 class="footer__title text-uppercase">Mobile App Design & Development Company</h2>
+					<p class="footer__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<div class="footer__social-icons">
+						<svg class="footer__social-icon facebook" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
+							width="512px" height="512px" viewBox="0 0 430.113 430.114"
+							style="enable-background:new 0 0 430.113 430.114;" xml:space="preserve">
+							<g>
+								<path id="Facebook"
+									d="M158.081,83.3c0,10.839,0,59.218,0,59.218h-43.385v72.412h43.385v215.183h89.122V214.936h59.805   c0,0,5.601-34.721,8.316-72.685c-7.784,0-67.784,0-67.784,0s0-42.127,0-49.511c0-7.4,9.717-17.354,19.321-17.354   c9.586,0,29.818,0,48.557,0c0-9.859,0-43.924,0-75.385c-25.016,0-53.476,0-66.021,0C155.878-0.004,158.081,72.48,158.081,83.3z"
+									fill="#FFFFFF" />
+							</g>
+						</svg>
+						<svg class="footer__social-icon linkedin" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
+							width="512px" height="512px" viewBox="0 0 22.258 22.258"
+							style="enable-background:new 0 0 22.258 22.258;" xml:space="preserve">
+							<g>
+								<path
+									d="M5.366,2.973c0,1.376-1.035,2.479-2.699,2.479H2.636C1.034,5.453,0,4.348,0,2.973c0-1.409,1.067-2.482,2.698-2.482   C4.331,0.49,5.336,1.564,5.366,2.973z M0.28,21.766h4.772V7.413H0.28V21.766z M16.764,7.077c-2.531,0-3.664,1.39-4.301,2.37v0.046   h-0.031c0.012-0.014,0.023-0.03,0.031-0.046V7.414H7.692c0.062,1.345,0,14.353,0,14.353h4.771v-8.016   c0-0.432,0.029-0.855,0.157-1.164c0.346-0.854,1.132-1.747,2.446-1.747c1.729,0,2.42,1.319,2.42,3.247v7.68h4.771v-8.229   C22.258,9.126,19.902,7.077,16.764,7.077z"
+									fill="#FFFFFF" />
+							</g>
+						</svg>
+						<svg class="footer__social-icon twitter" version="1.1" id="Capa_1"
+							xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+							y="0px" width="512px" height="512px" viewBox="0 0 512 512"
+							enable-background="new 0 0 512 512" xml:space="preserve">
+							<g>
+								<g>
+									<path fill="#FFFFFF" d="M512.001,97.275c-18.845,8.352-39.064,14.016-60.311,16.545c21.693-12.993,38.298-33.603,46.168-58.085
+											c-20.348,12.033-42.808,20.77-66.739,25.507c-19.164-20.45-46.425-33.187-76.658-33.187c-58.005,0-105.037,47.043-105.037,105.032
+											c0,8.224,0.928,16.257,2.72,23.938c-87.28-4.385-164.672-46.211-216.471-109.77c-9.054,15.49-14.205,33.539-14.205,52.805
+											c0,36.451,18.557,68.613,46.712,87.43c-17.213-0.576-33.403-5.313-47.576-13.185v1.313c0,50.883,36.217,93.351,84.24,103.017
+											c-8.799,2.367-18.077,3.68-27.674,3.68c-6.783,0-13.342-0.671-19.772-1.953c13.373,41.765,52.15,72.135,98.094,72.967
+											c-35.93,28.162-81.234,44.899-130.44,44.899c-8.479,0-16.829-0.512-25.051-1.439c46.487,29.858,101.677,47.267,160.994,47.267
+											c193.211,0,298.825-160.076,298.825-298.902l-0.353-13.601C480.103,136.83,497.955,118.333,512.001,97.275z" />
+								</g>
+							</g>
+						</svg>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<h2 class="footer__title text-uppercase">Contact Form</h2>
+					<form>
+						<div class="input-group active">
+							<input type="text" id="name" name="name">
+							<label for="name">Name</label>
+						</div>
+						<div class="input-group">
+							<input type="email" id="email" name="email">
+							<label for="name">E-mail</label>
+						</div>
+						<div class="input-group">
+							<textarea id="textarea" name="textarea" maxlength="200"
+								onkeyup="countCharacter()"></textarea>
+							<label for="name">Message</label>
+							<span class="textarea-counter">maximium 200 karakter - <span id="chacterCounter">200</span>
+								maradt</span>
+						</div>
+						<button class="submit-button">
+							<span>SEND</span>
+							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px"
+								viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+								<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M19.075,11.326l-6.374,1.994l-7.85-6.883l6.083,7.414l-6.816,2.173
+										L0.608,2.092L19.075,11.326z" />
+								<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF"
+									d="M11.149,14.943v3.834l-2.244-3.168L11.149,14.943z" />
+							</svg>
+						</button>
+					</form>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<p class="footer__copyright">© 2013, All rights reserved. Ponte.hu, H-1134 Budapest, Váci út 19. -
+						Panoráma Ház 3.em., Tel.: (+36 1) 373 0733, E-mail: info@ponte.hu </p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+	</script>
+	<script src="./app.js"></script>
+</body>
+
+</html>
